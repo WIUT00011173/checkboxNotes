@@ -91,6 +91,7 @@ body .notes-container > div > div {
 
 body .notes-container > div > div li {
   list-style: none;
+  font-size: 10px;
 }
 
 body .notes-container > div > div .checked {
@@ -165,7 +166,7 @@ body .notes-container > div > div .checked {
     overflow: auto;
   }
   body .notes-container > div h3 {
-    font-size: 20px;
+    font-size: 13px;
   }
   body .notes-container > div > div {
     display: -webkit-box;

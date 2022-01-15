@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 40px 50px;
+    .addNote {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        h1 {
+            font-size: 40px;
+            font-family: sans-serif;
+            color: aquamarine;
+        }
+        input {
+            padding: 10px 5px;
+            font-size: 20px;
+            width: 500px;
+            border: 1px solid grey;
+
+            &:focus {
+                border: none;
+                box-shadow: 0 0 10px yellow;
+            }
+        }
+        button {
+            padding: 5px 20px;
+            font-family: sans-serif;
+            font-size: 15px;
+            background-color: yellowgreen;
+            border: none;
+        }
+    }
+    .notes-container{
+        margin-top: 100px;
+        display: flex;
+        gap: 100px;
+        > div {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 30px;
+            font-family: sans-serif;
+            font-size: 20px;
+            gap: 10px;
+            background-color: rgba(209, 190, 209, 0.438);
+            border-radius: 20px;
+            width: 700px;
+            height: 50vh;
+            overflow: auto;
+
+            > div {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                li {
+                    list-style: none;
+                }
+                .checked {
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        height: 100vh;
+        width: 100%;
+        padding: 40px 50px;
+        .addNote {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+    
+            h1 {
+                font-size: 40px;
+                font-family: sans-serif;
+                color: aquamarine;
+            }
+            input {
+                padding: 10px 5px;
+                font-size: 20px;
+                width: 200px;
+                border: 1px solid grey;
+    
+                &:focus {
+                    border: none;
+                    box-shadow: 0 0 10px yellow;
+                }
+            }
+            button {
+                padding: 5px 20px;
+                font-family: sans-serif;
+                font-size: 15px;
+                background-color: yellowgreen;
+                border: none;
+            }
+        }
+        .notes-container{
+            margin-top: 50px;
+            display: flex;
+            gap: 50px;
+            > div {
+                display: flex;
+                flex-direction: column;
+                padding: 20px 30px;
+                font-family: sans-serif;
+                font-size: 20px;
+                gap: 10px;
+                background-color: rgba(209, 190, 209, 0.438);
+                border-radius: 20px;
+                width: 300px;
+                height: 30vh;
+                overflow: auto;
+    
+                > div {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+    
+                    li {
+                        list-style: none;
+                    }
+                    .checked {
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+}

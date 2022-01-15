@@ -127,6 +127,10 @@ body {
                     display: flex;
                     align-items: center;
                     gap: 15px;
+
+                    h3 {
+                        font-size: 25px;
+                    }
     
                     li {
                         list-style: none;

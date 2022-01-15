@@ -164,6 +164,9 @@ body .notes-container > div > div .checked {
     height: 30vh;
     overflow: auto;
   }
+  body .notes-container > div h3 {
+    font-size: 25px;
+  }
   body .notes-container > div > div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -172,9 +175,6 @@ body .notes-container > div > div .checked {
         -ms-flex-align: center;
             align-items: center;
     gap: 15px;
-  }
-  body .notes-container > div > div h3 {
-    font-size: 25px;
   }
   body .notes-container > div > div li {
     list-style: none;

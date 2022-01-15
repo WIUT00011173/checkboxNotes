@@ -122,15 +122,15 @@ body {
                 width: 300px;
                 height: 30vh;
                 overflow: auto;
+                h3 {
+                    font-size: 25px;
+                }
     
                 > div {
                     display: flex;
                     align-items: center;
                     gap: 15px;
 
-                    h3 {
-                        font-size: 25px;
-                    }
     
                     li {
                         list-style: none;
